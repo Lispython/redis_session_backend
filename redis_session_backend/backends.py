@@ -29,8 +29,9 @@ class SessionStore(SessionBase):
             port=getattr(settings, "REDIS_PORT", 6379),
             db=getattr(settings, "REDIS_DB"))
         self._session_key = session_key
+
+        ## self._session_key = self.session_key = session_key
         self.modified = None
-        self.session_key = self._session_key
         super(SessionStore, self).__init__(session_key)
 
 
