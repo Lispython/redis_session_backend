@@ -76,7 +76,7 @@ def run_tests():
 
 
 setup(
-    name="redis_sesson_backend",
+    name="redis_session_backend",
     version=".".join(map(str, __version__)),
     description="Redis backend for django sessions",
     long_description=readme_content,
@@ -85,7 +85,7 @@ setup(
     maintainer = "Alexandr Lispython",
     maintainer_email = "alex@obout.ru",
     url="https://github.com/lispython/redis_session_backend",
-#    packages=["redis_sesson_backend"],
+    packages=["redis_sesson_backend"],
     install_requires=[
         'redis'
         ],
