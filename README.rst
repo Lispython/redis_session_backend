@@ -25,6 +25,5 @@ SEE ALSO
 --------
 
 - `django framework`_
-If you don't like cURL (why?), try to use `python-requests`_.
 
 .. _`django framework`: http://djangoproject.com
