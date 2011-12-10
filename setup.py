@@ -85,7 +85,7 @@ setup(
     maintainer = "Alexandr Lispython",
     maintainer_email = "alex@obout.ru",
     url="https://github.com/lispython/redis_session_backend",
-    packages=["redis_sesson_backend"],
+    packages=["redis_session_backend"],
     install_requires=[
         'redis'
         ],
